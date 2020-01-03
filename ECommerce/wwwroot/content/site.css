@@ -1,0 +1,31 @@
+﻿*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+html{
+    font-family: Arial;
+}
+
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Items{
+   width:100%;
+   min-height:60vh;
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 10px;
+   padding: 2rem;
+}
+
+.Items__SingleBox{
+    background-color: aliceblue;
+    align-content:center;
+    padding:10px;
+}

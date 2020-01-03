@@ -1,0 +1,19 @@
+@model ECommerce.ViewModels.HomeVM
+
+
+<h2> @Model.Title</h2>
+
+<div class="Items">
+    @foreach (var product in Model.Products)
+    {
+        <div class="Items__SingleBox">
+            <h2>Name : @product.Name</h2>
+            <h2>Category : @product.Category</h2>
+            <h3>Condtion : @product.Condition</h3>
+            <h3></h3>
+            <p>@product.Description</p>
+        </div>
+    }
+</div>
+   
+
