@@ -1,0 +1,14 @@
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\bin\Debug\netcoreapp2.1\ECommerce.deps.json
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\bin\Debug\netcoreapp2.1\ECommerce.runtimeconfig.json
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\bin\Debug\netcoreapp2.1\ECommerce.runtimeconfig.dev.json
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\bin\Debug\netcoreapp2.1\ECommerce.dll
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\bin\Debug\netcoreapp2.1\ECommerce.pdb
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.csprojAssemblyReference.cache
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.RazorAssemblyInfo.cache
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.RazorAssemblyInfo.cs
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.AssemblyInfoInputs.cache
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.AssemblyInfo.cs
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.RazorTargetAssemblyInfo.cache
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.dll
+C:\Users\fizzc\source\repos\Ecommerce - Copy\ECommerce\obj\Debug\netcoreapp2.1\ECommerce.pdb
