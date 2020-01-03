@@ -14,8 +14,6 @@ namespace ECommerce.Controllers
         }
         public IActionResult Index()
         {
-            
-
             var products = _productRepository.GetAllProducts().OrderBy(product => product.Name);
 
             var homeVM = new HomeVM()
