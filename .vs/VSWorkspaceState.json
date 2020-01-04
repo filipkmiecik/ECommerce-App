@@ -3,7 +3,7 @@
     "",
     "\\ECommerce",
     "\\ECommerce\\Controllers",
-    "\\ECommerce\\obj",
+    "\\ECommerce\\Models",
     "\\ECommerce\\Views",
     "\\ECommerce\\Views\\Home"
   ],
