@@ -1,7 +1,5 @@
 ﻿using ECommerce.Models;
-using ECommerce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using System.Linq;
 
 namespace ECommerce.Controllers
 {
@@ -14,24 +12,7 @@ namespace ECommerce.Controllers
         }
         public IActionResult Index()
         {
-            var products = _productRepository.GetAllProducts().OrderBy(product => product.Name);
-
-            var homeVM = new HomeVM()
-            {
-                Title = "E-CommerceShop",
-                Products = products.ToList()
-            };
-            return View(homeVM);
-        }
-
-        public IActionResult Details(int id)
-        {
-            var product = _productRepository.GetProductById(id);
-
-            if (product == null)
-                return NotFound();
-
-            return View(product);
+            return View();
         }
     }
 }
