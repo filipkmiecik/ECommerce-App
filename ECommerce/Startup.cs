@@ -22,6 +22,7 @@ namespace ECommerce
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IOpinionRepository, OpinionRepository>();
             services.AddMvc();
 
         }

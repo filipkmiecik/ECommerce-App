@@ -39,3 +39,5 @@ C:\Users\User\Desktop\ECommerce-App\ECommerce\obj\Debug\netcoreapp2.1\Razor\View
 C:\Users\User\Desktop\ECommerce-App\ECommerce\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\User\Desktop\ECommerce-App\ECommerce\obj\Debug\netcoreapp2.1\Razor\Views\Home\details.g.cshtml.cs
 C:\Users\User\Desktop\ECommerce-App\ECommerce\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\User\Desktop\ECommerce-App\ECommerce\obj\Debug\netcoreapp2.1\Razor\Views\Opinion\Index.g.cshtml.cs
+C:\Users\User\Desktop\ECommerce-App\ECommerce\obj\Debug\netcoreapp2.1\Razor\Views\Opinion\OpinionSend.g.cshtml.cs

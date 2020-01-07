@@ -1,0 +1,43 @@
+﻿@model  ECommerce.Models.Opinion
+
+    <form asp-action="Index" method="post" role="form">
+
+
+        <div>
+            <label asp-for="UserName"></label>
+            <div>
+                <input asp-for="UserName" />
+                <span asp-validation-for="UserName"></span>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="Email"></label>
+            <div>
+                <input asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+        </div>
+
+
+        <div>
+            <label asp-for="Message"></label>
+            <div>
+                <textarea asp-for="Message"></textarea>
+                <span asp-validation-for="Message"></span>
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="WaitForAnAnswer"></label>
+            <div>
+                <input type="checkbox" asp-for="WaitForAnAnswer" />
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" />
+        </div>
+    </form>
+
+
