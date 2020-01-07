@@ -17,7 +17,6 @@ namespace ECommerce
     {
         public static void Main(string[] args)
         {
-            // Test 
             CreateWebHostBuilder(args).Build().Run();
         }
 
