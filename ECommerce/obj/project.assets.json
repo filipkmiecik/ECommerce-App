@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\ECommerce-App\\ECommerce\\ECommerce.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\ECommerce-App\\ECommerce\\ECommerce.csproj",
       "projectName": "ECommerce",
-      "projectPath": "C:\\Users\\User\\Desktop\\ECommerce-App\\ECommerce\\ECommerce.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\ECommerce-App\\ECommerce\\ECommerce.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\ECommerce-App\\ECommerce\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\ECommerce-App\\ECommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
