@@ -3,9 +3,7 @@
     "",
     "\\ECommerce",
     "\\ECommerce\\Controllers",
-    "\\ECommerce\\Models",
-    "\\ECommerce\\Views",
-    "\\ECommerce\\Views\\Home"
+    "\\ECommerce\\Models"
   ],
   "SelectedNode": "\\ECommerce.sln",
   "PreviewInSolutionExplorer": false
