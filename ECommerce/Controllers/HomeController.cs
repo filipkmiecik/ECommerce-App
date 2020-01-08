@@ -3,6 +3,7 @@ using ECommerce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
+//Test
 namespace ECommerce.Controllers
 {
     public class HomeController : Controller
