@@ -1,6 +1,7 @@
 ﻿using ECommerce.Models;
 using Microsoft.AspNetCore.Mvc;
 
+//Test
 namespace ECommerce.Controllers
 {
     public class HomeController : Controller

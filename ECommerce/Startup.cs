@@ -11,7 +11,9 @@ namespace ECommerce
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IProductRepository, MockProductRepository>();
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IOpinionRepository, OpinionRepository>();
             services.AddMvc();
 
         }

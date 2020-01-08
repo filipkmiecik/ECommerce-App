@@ -9,6 +9,7 @@ namespace ECommerce.Models
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Opinion> Opinions { get; set; }
     }
 
 
