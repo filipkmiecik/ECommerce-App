@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 //Test
-//Test v2
+
 namespace ECommerce.Controllers
 {
     public class HomeController : Controller

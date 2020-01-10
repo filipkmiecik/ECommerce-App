@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
-//Test v2
+
 namespace ECommerce.Models
 {
     public class AppDbContext : IdentityDbContext<IdentityUser>
