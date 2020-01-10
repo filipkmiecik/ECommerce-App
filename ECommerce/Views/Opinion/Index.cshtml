@@ -3,40 +3,45 @@
     <form asp-action="Index" method="post" role="form">
 
 
-        <div>
-            <label asp-for="UserName"></label>
-            <div>
-                <input asp-for="UserName" />
+        <div class="formItem">
+                <input asp-for="UserName" placeholder=" " class="input" />
+                <label asp-for="UserName" class="label"></label>
                 <span asp-validation-for="UserName"></span>
+                <div class="formItemBar"></div>
             </div>
-        </div>
+      
 
         <div>
-            <label asp-for="Email"></label>
-            <div>
-                <input asp-for="Email" />
+            
+            <div class="formItem">
+                <input asp-for="Email" placeholder=" " class="input"/>
+                <label asp-for="Email" class="label"></label>
                 <span asp-validation-for="Email"></span>
+                <div class="formItemBar"></div>
             </div>
         </div>
 
 
         <div>
-            <label asp-for="Message"></label>
-            <div>
-                <textarea asp-for="Message"></textarea>
+            
+            <div class="formItem">
+                <textarea asp-for="Message" placeholder=" " class="textarea"></textarea>
+                <label asp-for="Message" class="label"></label>
                 <span asp-validation-for="Message"></span>
+                <div class="formItemBar"></div>
             </div>
         </div>
 
         <div>
-            <label asp-for="WaitForAnAnswer"></label>
-            <div>
+         
+            <div class="formItem">
+                <label asp-for="WaitForAnAnswer"></label>
                 <input type="checkbox" asp-for="WaitForAnAnswer" />
             </div>
         </div>
 
-        <div>
-            <input type="submit" />
+        <div class="formBtnDiv">
+            <input type="submit"  class="formBtn" />
         </div>
     </form>
 

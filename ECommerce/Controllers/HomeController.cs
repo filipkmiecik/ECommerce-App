@@ -19,7 +19,7 @@ namespace ECommerce.Controllers
 
             var homeVM = new HomeVM()
             {
-                Title = "E-CommerceShop",
+                Title = "Our Products:",
                 Products = products.ToList()
             };
             return View(homeVM);
