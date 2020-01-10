@@ -1,33 +1,35 @@
 ﻿@model ECommerce.ViewModels.LoginVM
 
 
-<h2>
+<h2 class="formHeading">
     Before contact please Log in or 
-    <a asp-action="Register" asp-controller="Account"> Register</a>
+    <a asp-action="Register" asp-controller="Account" class="HeadingLink"> Register</a>
 </h2>
 
 <form asp-action="Login" asp-controller="Account" method="post" role="form">
     <div asp-validation-summary="All"></div>
 
     <div>
-        <label asp-for="UserName"></label>
-        <div>
-            <input asp-for="UserName" />
+        <div class="formItem">
+            <input asp-for="UserName" placeholder=" " class="input" />
+            <label asp-for="UserName" class="label"></label>
             <span asp-validation-for="UserName"></span>
+            <div class="formItemBar"></div>
         </div>
-    </div>
 
-    <div>
-        <label asp-for="Password"></label>
-        <div>
-            <input asp-for="Password" />
-            <span asp-validation-for="Password"></span>
+
+
+        <div class="formItem">
+            <input asp-for="Password" placeholder=" " class="input" />
+            <label asp-for="Password" class="label"></label>
+            <span asp-validation-for="Password" class="input"></span>
+            <div class="formItemBar"></div>
         </div>
-    </div>
 
-    <div>
-        <div>
-            <input type="submit" value="Log in" />
+
+
+        <div class="formBtnDiv">
+            <input type="submit" class="formBtn" value="Login" />
         </div>
     </div>
 </form>

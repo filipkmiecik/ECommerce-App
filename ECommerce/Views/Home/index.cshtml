@@ -1,7 +1,7 @@
 @model ECommerce.ViewModels.HomeVM
 
 
-<h2> @Model.Title</h2>
+<h2 class="formHeading"> @Model.Title</h2>
 
 <div class="Items">
     @foreach (var product in Model.Products)
@@ -12,7 +12,7 @@
             <h3>Condtion : @product.Condition</h3>
             <h3></h3>
             <p>@product.Description</p>
-            <a asp-controller="Home" asp-action="Details" asp-route-id="@product.Id"> Read More</a>
+            <a asp-controller="Home" asp-action="Details" asp-route-id="@product.Id" class="HeadingLink"> Read More</a>
         </div>
     }
 </div>

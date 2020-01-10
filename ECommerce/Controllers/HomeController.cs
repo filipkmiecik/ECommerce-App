@@ -13,7 +13,24 @@ namespace ECommerce.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            var products = _productRepository.GetAllProducts().OrderBy(product => product.Name);
+
+            var homeVM = new HomeVM()
+            {
+                Title = "Our Products:",
+                Products = products.ToList()
+            };
+            return View(homeVM);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var product = _productRepository.GetProductById(id);
+
+            if (product == null)
+                return NotFound();
+
+            return View(product);
         }
     }
 }
