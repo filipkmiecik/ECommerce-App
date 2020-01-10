@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-//Test v2
+
 namespace ECommerce.Models
 {
     public class MockProductRepository : IProductRepository
@@ -15,7 +15,7 @@ namespace ECommerce.Models
                 LoadProducts();
             }
         }
-        //Test
+   
         private void LoadProducts()
         {
             products = new List<Product>

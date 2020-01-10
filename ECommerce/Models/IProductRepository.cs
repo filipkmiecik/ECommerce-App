@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-//Test v2
+
 namespace ECommerce.Models
 {
     public interface IProductRepository

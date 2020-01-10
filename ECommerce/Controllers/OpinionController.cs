@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using ECommerce.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-//Test v2
+
 
 namespace ECommerce.Controllers
 {
