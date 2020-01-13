@@ -1,7 +1,11 @@
 ﻿@model  ECommerce.Models.Product
 
-<h2> @Model.Category - @Model.Condition</h2>
 
-<div class="thumnnail">
-    <h2>@Model.Price PLN</h2>
-</div>
+
+    <div class="details">
+        <h1> @Model.Name</h1>
+        <h2> @Model.Category - @Model.Condition</h2>
+        <img src="@Model.ImageUrl" alt="pic" class="detailsImg" />
+        <h2>Price: @Model.Price PLN</h2>
+        <p>@Model.Description</p>
+    </div>
